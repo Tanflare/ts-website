@@ -1,0 +1,33 @@
+.navWide {
+    /* display: none; if you want to change to mobile hamburger*/
+    display: block;
+    fixed: top;
+    
+     }
+
+  .wideDiv {
+    text-align: center;
+  }
+
+  nav{
+	background-color:black;
+	overflow: hidden;
+    padding: 1em;
+        
+    }
+	a{
+     font-family: 'Noto Serif TC', serif;
+     font-size:15px;
+     
+     text-decoration: none;
+    color:#FFF !important;
+    text-align: center;
+	display: inline-block;
+	padding: 0 6em;        
+    }
+
+    a:visited {
+		color: #FFF;
+	}
+
+

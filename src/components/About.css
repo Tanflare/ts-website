@@ -1,0 +1,205 @@
+.about {
+    background-color: #e74f4f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+      }
+
+/* .Header{
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    font-size: 2vw;
+    line-height: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+} */
+.arrow{
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    font-size: 4vh;
+    z-index: 15;
+    position: relative;
+    top: 190px;
+    border: none;
+  padding: 0;
+  background: none;
+}
+
+.Header {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    font-size: 2vw;
+    z-index: 5;
+}
+
+.dot3 {
+    height: 8vw;
+    width: 8vw;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+     opacity: 1;
+     position: absolute;
+     right: 8vw;
+     
+  }
+
+  .dot2 {
+    height: 17vw;
+    width: 17vw;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+     opacity: 1;
+     position: relative;
+     left: 16vw;
+     top: 10em;
+     overflow: hidden;
+  }
+
+  .dot4 {
+    height: 2vw;
+    width: 2vw;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+     opacity: 1;
+     position: absolute;
+     right: 22vw;
+     top: 2vw;
+     
+  }
+
+  .dot5 {
+    height: 35vw;
+    width: 35vw;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+     opacity: 1;
+     position: relative;
+     left:25vw;
+     top: 10vh;
+     animation: floatBubble 12s infinite  normal ease-out;
+     overflow: hidden;
+  }
+
+  .dot6 {
+    height: 3vw;
+    width: 3vw;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+     opacity: 1;
+     position: absolute;
+     left:4vw;
+     top: 70vh;
+     
+     overflow: hidden;
+  }
+
+
+
+  /* @keyframes floatBubble {
+    0% {
+        opacity: 0;
+        top: 5em;
+    }
+    10%{
+        opacity: 1;
+            }
+    90% {
+        top: -10em;
+        opacity: 1;
+          }
+    100%{
+        top: -10em;
+        
+        opacity: 0;
+    }
+} */
+.dot2, .dot3, .dot4, .dot5, .dot6 {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+.axis:hover > .dot5{
+    transform: translate(0,100px);
+    -webkit-transform: translate(0,100px);
+    -o-transform: translate(0,100px); 
+    -moz-transform: translate(0,100px);
+    
+}
+
+.axis:hover > .dot6{
+    transform: translate(0,-300px);
+    -webkit-transform: translate(0,-300px);
+    -o-transform: translate(0,-300px); 
+    -moz-transform: translate(0,-300px);
+    
+}
+
+.axis:hover > .dot4{
+    transform: translate(0,300px);
+    -webkit-transform: translate(0,300px);
+    -o-transform: translate(0,300px); 
+    -moz-transform: translate(0,300px);
+    
+}
+.axis:hover > .dot3{
+    transform: translate(0,-50px);
+    -webkit-transform: translate(0,-50px);
+    -o-transform: translate(0,-50px); 
+    -moz-transform: translate(0,-50px);
+    
+}
+.axis:hover > .dot2{
+    transform: translate(0,-150px);
+    -webkit-transform: translate(0,-150px);
+    -o-transform: translate(0,-150px); 
+    -moz-transform: translate(0,-150px);
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #bio{
+        font-size:30px;
+   }
+   .arrow{
+       position: absolute;
+       top: 450px;
+   }
+} 
+
+@media only screen and (max-width: 600px) {
+    #bio{
+        font-size:20px;
+   }
+   .arrow{
+       position: absolute;
+       top: 450px;
+   }
+} 
