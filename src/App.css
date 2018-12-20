@@ -101,7 +101,9 @@
 
 @keyframes blinkingText{
   from, to { color: transparent }
+  0.1% { opacity: 1;}
   50% { color: white; }
+  99.9% {opacity: 1;}
   }
 
 

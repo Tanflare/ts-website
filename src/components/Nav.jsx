@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import New from './counter2';
 import About from './About';
 import App from '../App';
+import Work from './Work';
+import Contact from './Contact';
 
 import './Nav.css';
 class Nav extends Component {
@@ -16,8 +18,8 @@ class Nav extends Component {
                 <div className="navWide">
                     <div className="wideDiv">
                         <a href="#" id="About" onClick={about}>ABOUT</a>
-                        <a href="#">WORK</a>
-                        <a href="#">CONTACT</a>
+                        <a href="#" onClick={work}>WORK</a>
+                        <a href="#" onClick={contact}>CONTACT</a>
                         <a href="#"onClick={home}>HomeREMOVE LATER</a>
                     </div>
                 </div>
@@ -31,7 +33,7 @@ function about()
 {
   //onclick={this.Test()}
 ReactDOM.render(<About />, document.getElementById('root'));
-console.log("HEllo");
+console.log("About");
   
 }
 
@@ -39,9 +41,25 @@ function home()
 {
   //onclick={this.Test()}
 ReactDOM.render(<App />, document.getElementById('root'));
-console.log("HEllo");
+console.log("Home");
   
 }
+
+function contact()
+{
+  //onclick={this.Test()}
+ReactDOM.render(<Contact />, document.getElementById('root'));
+console.log("Contact");
+  
+}
+function work()
+{
+  //onclick={this.Test()}
+ReactDOM.render(<Work />, document.getElementById('root'));
+console.log("Contact");
+  
+}
+  
     
 
 export default Nav;
