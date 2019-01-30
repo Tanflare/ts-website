@@ -14,7 +14,9 @@ class About extends Component {
                 
                 
                     <div className="axis">
-                    <span id="outer" className ="Header"><h1 id ="bio" >Hi, my name is Tanush Samson.</h1>
+                    <span id="outer" className ="Header">
+                    <p id ="bio">Hi, my name is Tanush Samson.</p>
+                    
                     </span>
                     <br/>
                     <span class="dot2"></span>
@@ -22,7 +24,7 @@ class About extends Component {
                     <span class="dot4"></span>
                     <span class="dot5"></span>
                     <span class="dot6"></span>
-                    <button class="arrow" onClick={Text}>🡓 </button>
+                    <button class="arrow" onClick={Text}>🡓</button>
                     {/* 🡓 △*/}
                     </div>
                     

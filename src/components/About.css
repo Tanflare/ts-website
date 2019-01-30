@@ -6,15 +6,19 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 0px;
+    
       }
 
 /* .Header{
     font-family: 'Noto Serif TC', serif;
     color: white;
     font-size: 2vw;
-    line-height: 10px;
+    line-height: 7vh;
     align-items: center;
     justify-content: center;
+    width: 70vw;
+    position: relative;
     
     
 } */
@@ -23,11 +27,10 @@
     color: white;
     font-size: 4vh;
     z-index: 15;
-    position: relative;
-    top: 190px;
+    position: absolute;
+    top: 70vh;
     border: none;
-  padding: 0;
-  background: none;
+    background: none;
 }
 
 .Header {
@@ -40,6 +43,7 @@
     color: white;
     font-size: 2vw;
     z-index: 5;
+    padding:0px;
 }
 
 .dot3 {
@@ -53,6 +57,7 @@
      opacity: 1;
      position: absolute;
      right: 8vw;
+     overflow: hidden;
      
   }
 
@@ -83,6 +88,7 @@
      position: absolute;
      right: 22vw;
      top: 2vw;
+     overflow: hidden;
      
   }
 
@@ -186,20 +192,35 @@
 
 @media only screen and (max-width: 800px) {
     #bio{
-        font-size:30px;
+        font-size: 3vw;
+        position: relative;
    }
    .arrow{
-       position: absolute;
-       top: 450px;
-   }
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    font-size: 4vh;
+    z-index: 15;
+    position: absolute;
+    top: 80vh;
+    border: none;
+    background: none;
+}
 } 
 
 @media only screen and (max-width: 600px) {
     #bio{
-        font-size:20px;
+        font-size: 5vw;
+        position: relative;
+        width: 80vw;
    }
    .arrow{
-       position: absolute;
-       top: 450px;
-   }
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    font-size: 4vh;
+    z-index: 15;
+    position: absolute;
+    top: 80vh;
+    border: none;
+    background: none;
+}
 } 
