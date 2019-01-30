@@ -5,17 +5,17 @@ import ReactDOM from 'react-dom';
 import './App.css';
 
 
+
 class App extends Component {
   
-  
-
   render() {
     return (
+      
       <div className="App">
         <header className="App-header">
           <div id="container" >
            <span class="dot"></span>
-           <p className = "Tanush" >Tanush YELLOW Samson</p>
+           <p id ="Scroll" className = "Tanush" >Tanush Samson</p>
            {/* <p className = "Tanush" >Tanush Samson<span id= "cursor">|</span></p> */}
           </div>
         </header>
@@ -25,5 +25,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;
