@@ -31,7 +31,10 @@
     top: 70vh;
     border: none;
     background: none;
+    outline: none;
 }
+
+#button:focus {outline:0;}
 
 .Header {
     position: absolute;
@@ -204,7 +207,9 @@
     top: 80vh;
     border: none;
     background: none;
+    
 }
+#button:focus {outline:0;}
 } 
 
 @media only screen and (max-width: 600px) {
@@ -212,6 +217,7 @@
         font-size: 5vw;
         position: relative;
         width: 80vw;
+        top: -10vw;
    }
    .arrow{
     font-family: 'Noto Serif TC', serif;
@@ -219,8 +225,10 @@
     font-size: 4vh;
     z-index: 15;
     position: absolute;
-    top: 80vh;
+    top: 70vh;
     border: none;
     background: none;
+  
 }
+#button:focus {outline:0;}
 } 

@@ -24,7 +24,7 @@ class About extends Component {
                     <span class="dot4"></span>
                     <span class="dot5"></span>
                     <span class="dot6"></span>
-                    <button class="arrow" onClick={Text}>🡓</button>
+                    <button id="button" class="arrow" onClick={Text}>🡓</button>
                     {/* 🡓 △*/}
                     </div>
                     
