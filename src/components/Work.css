@@ -14,5 +14,8 @@
   color: white;
   position: relative;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  
   
 }
