@@ -9,7 +9,7 @@ class Contact extends Component {
                 <header className="container">
                     {/* <h1 className="text">Under Construction</h1> */}
                     <div class="grid-container">
-                        <div class="grid-item"><img src="../LN.png" height="70px" onClick={linkedin}></img></div>
+                        <div class="grid-item"><img src="../../public/LN.png" height="70px" onClick={linkedin}></img></div>
                         <div class="grid-item">2</div>
                         <div class="grid-item">3</div>  
                     </div>
