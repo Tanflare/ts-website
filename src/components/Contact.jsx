@@ -13,6 +13,7 @@ class Contact extends Component {
                         <div class="grid-item">2</div>
                         <div class="grid-item">3</div>  
                     </div>
+                    <h1>*Under Contruction*</h1>
                 </header>
             </div> 
          );

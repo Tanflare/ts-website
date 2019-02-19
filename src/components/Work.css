@@ -20,6 +20,8 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  
-  
+}
+
+.link:hover { 
+  cursor: pointer;
 }

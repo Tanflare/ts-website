@@ -17,10 +17,10 @@ class Nav extends Component {
             <nav>
                 <div className="navWide">
                     <div className="wideDiv">
+                        <a href="#"onClick={home}>HOME</a>
                         <a href="#" id="About" onClick={about}>ABOUT</a>
                         <a href="#" onClick={work}>WORK</a>
                         <a href="#" onClick={contact}>CONTACT</a>
-                        <a href="#"onClick={home}>HomeREMOVE LATER</a>
                     </div>
                 </div>
             </nav>
