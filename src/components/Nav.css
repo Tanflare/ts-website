@@ -1,33 +1,69 @@
-.navWide {
-    /* display: none; if you want to change to mobile hamburger*/
-    display: block;
-    fixed: top;
-    
-     }
+/* Desktop */
+  .navWide {
+      display: block;
+      }
 
-  .wideDiv {
-    text-align: center;
-  }
+    .wideDiv {
+      text-align: center;
+    }
 
-  nav{
-	background-color:black;
-	overflow: hidden;
-    padding: 1em;
-        
+    nav{
+    background-color:black;
+    overflow: hidden;
+      padding: 1em;   
     }
-	a{
-     font-family: 'Noto Serif TC', serif;
-     font-size:15px;
-     
-     text-decoration: none;
-    color:#FFF !important;
-    text-align: center;
-	display: inline-block;
-	padding: 0 6em;        
+
+    a:hover{
+      text-decoration: none ;
+      color: #e74f4f !important;
     }
+  
+    /* Initialize to red */
+    #Home{
+      color: #e74f4f;
+    }
+
+    a{
+      font-family: 'Noto Serif TC', serif;
+      font-size:20px;
+      text-decoration: none;
+      color:#FFF;
+      text-align: center;
+      display: inline-block;
+      padding: 0 6vw;   
+      text-decoration: none !important;
+      }
 
     a:visited {
-		color: #FFF;
-	}
+      color: white;
+    }
 
 
+
+/*800px*/
+@media only screen and (max-width: 800px) {
+  a{
+    font-family: 'Noto Serif TC', serif;
+    font-size:20px;
+    text-decoration: none;
+    color:#FFF;
+    text-align: center;
+    display: inline-block;
+    padding: 0 5vw;   
+    text-decoration: none !important;
+    }
+}
+
+/*600px*/
+@media only screen and (max-width: 600px) {
+  a{
+    font-family: 'Noto Serif TC', serif;
+    font-size:15px;
+    text-decoration: none;
+    color:#FFF;
+    text-align: center;
+    display: inline-block;
+    padding: 0 3vw;   
+    text-decoration: none !important;
+    }
+}

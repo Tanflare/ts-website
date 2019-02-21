@@ -8,33 +8,37 @@ import Contact from './Contact';
 
 import './Nav.css';
 class Nav extends Component {
-    state = {  }
-
-   
-
+    state = {currentTime: "Hello"}
+  
     render() { 
         return ( 
             <nav>
                 <div className="navWide">
                     <div className="wideDiv">
-                        <a href="#"onClick={home}>HOME</a>
+                        <a href="#" id="Home" onClick={home}>HOME</a>
                         <a href="#" id="About" onClick={about}>ABOUT</a>
-                        <a href="#" onClick={work}>WORK</a>
-                        <a href="#" onClick={contact}>CONTACT</a>
+                        <a href="#" id="Work" onClick={work}>WORK</a>
+                        <a href="#" id="Contact" onClick={contact}>CONTACT</a>
                     </div>
                 </div>
             </nav>
          );
     }
 }
- 
+
 
 function about()
 {
-  //onclick={this.Test()}
 ReactDOM.render(<About />, document.getElementById('root'));
 console.log("About");
-  
+document.getElementById("About").style.color = "#e74f4f";
+clear("Home", "Work", "Contact") 
+}
+
+function clear(a,b,c){
+  document.getElementById(a).style.color = "white";
+  document.getElementById(b).style.color = "white";
+  document.getElementById(c).style.color = "white";
 }
 
 function home()
@@ -42,6 +46,8 @@ function home()
   //onclick={this.Test()}
 ReactDOM.render(<App />, document.getElementById('root'));
 console.log("Home");
+document.getElementById("Home").style.color = "#e74f4f";
+clear("About", "Work", "Contact") 
   
 }
 
@@ -50,6 +56,8 @@ function contact()
   //onclick={this.Test()}
 ReactDOM.render(<Contact />, document.getElementById('root'));
 console.log("Contact");
+document.getElementById("Contact").style.color = "#e74f4f";
+clear("Home", "Work", "About") 
   
 }
 function work()
@@ -57,6 +65,8 @@ function work()
   //onclick={this.Test()}
 ReactDOM.render(<Work />, document.getElementById('root'));
 console.log("Contact");
+document.getElementById("Work").style.color = "#e74f4f";
+clear("Home", "About", "Contact") 
   
 }
   

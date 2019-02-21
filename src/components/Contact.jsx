@@ -8,10 +8,10 @@ class Contact extends Component {
             <div className="App">
                 <header className="container">
                     {/* <h1 className="text">Under Construction</h1> */}
-                    <div class="grid-container">
-                        <div class="grid-item"><img src="LN.png" height="70px" onClick={linkedin}></img></div>
-                        <div class="grid-item">2</div>
-                        <div class="grid-item">3</div>  
+                    <div className="grid-container">
+                        <div className="grid-item"><img src="%PUBLIC_URL%/LN.pn" height="70px" onClick={linkedin}></img></div>
+                        <div className="grid-item">2</div>
+                        <div className="grid-item">3</div>  
                     </div>
                     <h1>*Under Contruction*</h1>
                 </header>

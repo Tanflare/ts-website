@@ -8,9 +8,10 @@ class Work extends Component {
         return ( 
             <div className="App">
                 <header className="container">
-                    <h1 className ="link" onClick={behance}>Behance</h1>
-                    <br></br>
-                    <h1 className="link" onClick={github}>GitHub</h1>
+                    <div class="row">
+                    <div class="col content">some content</div>
+                    <div class="col content raw">some other content</div>
+                    </div>
                 </header>
             </div> 
             

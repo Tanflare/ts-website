@@ -10,21 +10,18 @@
   }
 
 .dot {
- 
   height: 50px;
   width: 50px;
   background-color:black;
   border-radius: 50%;
-  /* display: inline-block; */
   position: absolute;
-  top: 50vh;
+  top: 49vh;
   left: 47.8%;
-  /* margin-left: auto;
-  margin-right: auto; */
    opacity: 0.01;
    padding: 0px;
    text-align: center;  
 }
+
 .dot{
   transition: all 1.8s ease-in-out;
   overflow: hidden;
