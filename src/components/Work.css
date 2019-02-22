@@ -6,13 +6,23 @@
   background-color: #e74f4f;
 }
 
+.wrapper{
+  position: absolute;
+  width: 80vw;
+  top: 0vh;
+  z-index: 3;
+  /* border:10px black solid; */
+}
+
 .link {
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Noto Serif TC', serif;
   color: white;
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin-top: 26vh;
+  z-index: 2;
 }
 
 .link:hover { 
@@ -26,3 +36,30 @@
 .col {
   flex:1;
 } 
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color:black;
+  border-radius: 50%;
+  opacity: 1;
+   padding: 0px;
+   overflow: hidden;
+    position: absolute;
+   left: 17vw;
+   top: 26vh;
+   z-index: -2;
+}
+
+.dot{
+  animation: grow 7s infinite; 
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes grow {
+  0% {transform: scale(1.0);}
+  50% {transform: scale(30);}
+  100% {transform: scale(1.0);}
+}
+

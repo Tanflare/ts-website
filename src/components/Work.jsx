@@ -7,12 +7,23 @@ class Work extends Component {
     render() { 
         return ( 
             <div className="App">
-                <header className="container">
+                <div className="container">
+                <div className="wrapper">
                     <div class="row">
-                    <div class="col content">some content</div>
-                    <div class="col content raw">some other content</div>
+                    
+                    
+                    <span className="dot"></span>
+                    <div class="col content"> <h1 className ="link" onClick={behance}>Behance</h1></div>
+                    
+                    <div class="col content raw"> <h1 className ="link" onClick={github}>Github</h1></div>
                     </div>
-                </header>
+                    <br></br>
+                    <div class="row">
+                    <div class="col content"> <h1 className ="link" onClick={behance}>Something</h1></div>
+                    <div class="col content raw"> <h1 className ="link" onClick={github}>Something Else</h1></div>
+                    </div>
+                    </div>
+                </div>
             </div> 
             
         );

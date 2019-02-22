@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div id="container" >
-           <span class="dot"></span>
+           <span class="dotM"></span>
            <p id ="Scroll" className = "Tanush" >Tanush Samson</p>
            {/* <p className = "Tanush" >Tanush Samson<span id= "cursor">|</span></p> */}
           </div>

@@ -9,7 +9,7 @@
   animation:blinkingText 1.2s infinite;
   }
 
-.dot {
+.dotM {
   height: 50px;
   width: 50px;
   background-color:black;
@@ -22,13 +22,13 @@
    text-align: center;  
 }
 
-.dot{
+.dotM{
   transition: all 1.8s ease-in-out;
   overflow: hidden;
 }
 
 
-#container:hover > .dot{ transform: scale(10); opacity: 1; }
+#container:hover > .dotM{ transform: scale(10); opacity: 1; }
 
 .Tanush{
     left: 0;
@@ -87,7 +87,7 @@
 }
 
 
-  .dot {
+  .dotM {
  
     height: 50px;
     width: 50px;
@@ -101,7 +101,7 @@
      text-align: center;  
   }
 
-  #container:hover > .dot{ transform: scale(7); opacity: 1; }
+  #container:hover > .dotM{ transform: scale(7); opacity: 1; }
 } 
 
 @media only screen and (max-width: 600px) {
@@ -119,7 +119,7 @@
 }
 
 
-  .dot {
+  .dotM {
  
     height: 50px;
     width: 50px;
@@ -128,11 +128,17 @@
         position: absolute;
     top: 38vh;
     left: 44.8%;
-    opacity: 0.01;
+    opacity: 1;
      padding: 0px;
      text-align: center;  
+     animation: grow2 5s infinite; 
   }
-  #container:hover > .dot{ transform: scale(5); opacity: 1; }
+
+  @keyframes grow2 {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(4);}
+    100% {transform: scale(1.0);}
+  }
 } 
 
 
