@@ -17,9 +17,9 @@ class Nav extends Component {
                 <div className="navWide">
                     <MetaTags>
                         <title>Tanush Samson</title>
-                        <meta name="description" content="Some description." />
-                        <meta property="og:title" content="Tanush Samson Portfolio Website" />
-                        <meta property="og:image" content="%PUBLIC_URL%/favicon2.ico" />
+                        <meta name="description" content="Portfolio Website for Tanush Samson" />
+                        <meta property="og:title" content="Tanush Samson" />
+                        {/* <meta property="og:image" content="%PUBLIC_URL%/favicon2.ico" /> */}
                     </MetaTags>
                     <div className="wideDiv">
                         <a href="#" id="Home" onClick={home}>HOME</a>
