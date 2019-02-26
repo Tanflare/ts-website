@@ -15,12 +15,12 @@ class Nav extends Component {
         return ( 
             <nav>
                 <div className="navWide">
-                    <MetaTags>
+                    {/* <MetaTags>
                         <title>Tanush Samson</title>
                         <meta name="description" content="Portfolio Website for Tanush Samson" />
                         <meta property="og:title" content="Tanush Samson" />
-                        {/* <meta property="og:image" content="%PUBLIC_URL%/favicon2.ico" /> */}
-                    </MetaTags>
+                        <meta property="og:image" content="%PUBLIC_URL%/favicon2.ico" />
+                    </MetaTags> */}
                     <div className="wideDiv">
                         <a href="#" id="Home" onClick={home}>HOME</a>
                         <a href="#" id="About" onClick={about}>ABOUT</a>
