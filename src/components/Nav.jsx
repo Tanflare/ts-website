@@ -5,6 +5,7 @@ import About from './About';
 import App from '../App';
 import Work from './Work';
 import Contact from './Contact';
+import MetaTags from 'react-meta-tags';
 
 import './Nav.css';
 class Nav extends Component {
@@ -14,6 +15,12 @@ class Nav extends Component {
         return ( 
             <nav>
                 <div className="navWide">
+                    <MetaTags>
+                        <title>Tanush Samson</title>
+                        <meta name="description" content="Some description." />
+                        <meta property="og:title" content="Tanush Samson Portfolio Website" />
+                        <meta property="og:image" content="%PUBLIC_URL%/favicon2.ico" />
+                    </MetaTags>
                     <div className="wideDiv">
                         <a href="#" id="Home" onClick={home}>HOME</a>
                         <a href="#" id="About" onClick={about}>ABOUT</a>

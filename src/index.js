@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import New from './components/counter2';
+import Meta from './components/Meta';
 import Nav from './components/Nav';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Nav />, document.getElementById('navbar'));
-//ReactDOM.render(<New />, document.getElementById('root'));
+//ReactDOM.render(<Meta />, document.getElementById('navbar'));
 
 
 
