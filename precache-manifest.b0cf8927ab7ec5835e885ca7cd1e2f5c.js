@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/ts-website/static/js/runtime~main.65624629.js"
   },
   {
-    "revision": "ac478ff8b429588222dc",
-    "url": "/ts-website/static/js/main.ac478ff8.chunk.js"
+    "revision": "aa6a12355957b28d3e22",
+    "url": "/ts-website/static/js/main.aa6a1235.chunk.js"
   },
   {
     "revision": "dde2f9830b75fbaa173a",
     "url": "/ts-website/static/js/1.dde2f983.chunk.js"
   },
   {
-    "revision": "ac478ff8b429588222dc",
+    "revision": "aa6a12355957b28d3e22",
     "url": "/ts-website/static/css/main.3cf11202.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ts-website/static/css/1.2326848a.chunk.css"
   },
   {
-    "revision": "40a6a819170c43e094de2ee3383746d8",
+    "revision": "65581a1a3d3e5217ce52f0990c1827f1",
     "url": "/ts-website/index.html"
   }
 ];

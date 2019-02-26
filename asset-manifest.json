@@ -1,7 +1,7 @@
 {
   "main.css": "/ts-website/static/css/main.3cf11202.chunk.css",
-  "main.js": "/ts-website/static/js/main.ac478ff8.chunk.js",
-  "main.js.map": "/ts-website/static/js/main.ac478ff8.chunk.js.map",
+  "main.js": "/ts-website/static/js/main.aa6a1235.chunk.js",
+  "main.js.map": "/ts-website/static/js/main.aa6a1235.chunk.js.map",
   "static/css/1.2326848a.chunk.css": "/ts-website/static/css/1.2326848a.chunk.css",
   "static/js/1.dde2f983.chunk.js": "/ts-website/static/js/1.dde2f983.chunk.js",
   "static/js/1.dde2f983.chunk.js.map": "/ts-website/static/js/1.dde2f983.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.2326848a.chunk.css.map": "/ts-website/static/css/1.2326848a.chunk.css.map",
   "static/css/main.3cf11202.chunk.css.map": "/ts-website/static/css/main.3cf11202.chunk.css.map",
   "index.html": "/ts-website/index.html",
-  "precache-manifest.9d9ea9870392bdaeae3ae08da5f88536.js": "/ts-website/precache-manifest.9d9ea9870392bdaeae3ae08da5f88536.js",
+  "precache-manifest.b0cf8927ab7ec5835e885ca7cd1e2f5c.js": "/ts-website/precache-manifest.b0cf8927ab7ec5835e885ca7cd1e2f5c.js",
   "service-worker.js": "/ts-website/service-worker.js"
 }
