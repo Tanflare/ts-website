@@ -17,8 +17,8 @@ class Nav extends Component {
                     <div className="wideDiv">
                         <a href="#" id="Home" onClick={home}>HOME</a>
                         <a href="#" id="About" onClick={about}>ABOUT</a>
-                        <a href="#" id="Work" onClick={work}>WORK</a>
-                        <a href="#" id="Contact" onClick={contact}>CONTACT</a>
+                        {/* <a href="#" id="Work" onClick={work}>WORK</a>
+                        <a href="#" id="Contact" onClick={contact}>CONTACT</a> */}
                     </div>
                 </div>
             </nav>
@@ -32,14 +32,18 @@ function about()
 ReactDOM.render(<About />, document.getElementById('root'));
 console.log("About");
 document.getElementById("About").style.color = "#e74f4f";
-clear("Home", "Work", "Contact") 
+clear("Home") 
 }
 
-function clear(a,b,c){
-  document.getElementById(a).style.color = "white";
-  document.getElementById(b).style.color = "white";
-  document.getElementById(c).style.color = "white";
-}
+//MODIFIED TO ONLY HAVE TWO NAV BAR ITEMS
+function clear(a){
+    document.getElementById(a).style.color = "white";
+  }
+// function clear(a,b,c){
+//   document.getElementById(a).style.color = "white";
+//   document.getElementById(b).style.color = "white";
+//   document.getElementById(c).style.color = "white";
+// }
 
 function home()
 {
@@ -47,28 +51,26 @@ function home()
 ReactDOM.render(<App />, document.getElementById('root'));
 console.log("Home");
 document.getElementById("Home").style.color = "#e74f4f";
-clear("About", "Work", "Contact") 
-  
+clear("About") 
 }
 
-function contact()
-{
-  //onclick={this.Test()}
-ReactDOM.render(<Contact />, document.getElementById('root'));
-console.log("Contact");
-document.getElementById("Contact").style.color = "#e74f4f";
-clear("Home", "Work", "About") 
-  
-}
-function work()
-{
-  //onclick={this.Test()}
-ReactDOM.render(<Work />, document.getElementById('root'));
-console.log("Contact");
-document.getElementById("Work").style.color = "#e74f4f";
-clear("Home", "About", "Contact") 
-  
-}
+// function contact()
+// {
+//   //onclick={this.Test()}
+// ReactDOM.render(<Contact />, document.getElementById('root'));
+// console.log("Contact");
+// document.getElementById("Contact").style.color = "#e74f4f";
+// clear("Home", "Work", "About")   
+// }
+
+// function work()
+// {
+//   //onclick={this.Test()}
+// ReactDOM.render(<Work />, document.getElementById('root'));
+// console.log("Contact");
+// document.getElementById("Work").style.color = "#e74f4f";
+// clear("Home", "About", "Contact")  
+// }
   
     
 

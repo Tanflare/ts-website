@@ -1,5 +1,6 @@
 .about {
     background-color: #e74f4f;
+    background-image: linear-gradient(to bottom right, #e74f4f, #b05c87);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -36,6 +37,15 @@
     z-index: 5;
     padding:0px;
 }
+
+#tlink{
+    font-size: 2vw;  
+}
+
+#tlink:hover{
+    text-decoration: none ;
+    color: white !important;
+  }
 
 .dot3 {
     height: 8vw;
@@ -95,7 +105,6 @@
      position: relative;
      left:25vw;
      top: 10vh;
-     animation: floatBubble 12s infinite  normal ease-out;
      overflow: hidden;
   }
 
@@ -181,9 +190,14 @@
     background: none;
     
 }
+
+#tlink{
+    font-size: 3vw;  
+}
 #button:focus {outline:0;}
 } 
 
+/* 500px */
 @media only screen and (max-width: 500px) {
     #bio{
         font-size: 5vw;
@@ -191,6 +205,9 @@
         width: 80vw;
         top: -10vw;
    }
+   #tlink{
+    font-size: 5vw;  
+}
    .arrow{
     font-family: 'Noto Serif TC', serif;
     color: white;
@@ -198,9 +215,100 @@
     z-index: 15;
     position: absolute;
     top: 70vh;
+    left: 50%;
+    margin-right: -50%;
     border: none;
     background: none;
-  
-}
+    }
+    .dot3 {
+        height: 8vw;
+        width: 8vw;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+         opacity: 1;
+         position: absolute;
+         right: 8vw;
+         overflow: hidden;
+         
+      }
+    
+      .dot2 {
+        height: 17vw;
+        width: 17vw;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+         opacity: 1;
+         position: relative;
+         left: 25vw;
+         top:35vw;
+         overflow: hidden;
+      }
+      .axis:hover > .dot2{
+        transform: translate(0,-180px);
+        -webkit-transform: translate(0,-180px);
+        -o-transform: translate(0,-180px); 
+        -moz-transform: translate(0,-180px);
+        
+    }
+    
+      .dot4 {
+        height: 2vw;
+        width: 2vw;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+         opacity: 1;
+         position: absolute;
+         right: 22vw;
+         top: 12vw;
+         overflow: hidden;  
+      }
+
+      .axis:hover > .dot4{
+        transform: translate(0,450px);
+        -webkit-transform: translate(0,450px);
+        -o-transform: translate(0,450px); 
+        -moz-transform: translate(0,450px);
+        
+    }
+    
+      .dot5 {
+        height: 40vw;
+        width: 40vw;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+         opacity: 1;
+         position: relative;
+         left:-20vw;
+         top: -25vh;
+         overflow: hidden;
+      }
+      
+      /* done */
+      .dot6 {
+        height: 5vw;
+        width: 5vw;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+         opacity: 1;
+         position: absolute;
+         left:4vw;
+         top: 60vh;
+         overflow: hidden;
+      }
 #button:focus {outline:0;}
 } 

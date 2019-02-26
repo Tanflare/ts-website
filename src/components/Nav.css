@@ -15,7 +15,7 @@
 
     a:hover{
       text-decoration: none ;
-      color: #e74f4f !important;
+      color: #b05c87 !important;
     }
   
     /* Initialize to red */
@@ -44,7 +44,7 @@
 @media only screen and (max-width: 800px) {
   a{
     font-family: 'Noto Serif TC', serif;
-    font-size:20px;
+    font-size:25px;
     text-decoration: none;
     color:#FFF;
     text-align: center;

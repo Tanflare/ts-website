@@ -8,8 +8,6 @@ import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
 
 
-
-
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Nav />, document.getElementById('navbar'));
 //ReactDOM.render(<New />, document.getElementById('root'));
